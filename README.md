@@ -14,3 +14,4 @@ https://brian-presta.github.io/run-buddy/
 Made with ❤️ by Brian Presta
 
 
+### ©️2019 Run Buddy, Inc 
