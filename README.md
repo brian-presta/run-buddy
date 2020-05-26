@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose
 A website that offers fitness training services.
@@ -13,4 +13,4 @@ https://brian-presta.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Brian Presta
 
-pull test
+
