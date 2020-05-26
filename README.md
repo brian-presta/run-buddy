@@ -12,3 +12,5 @@ https://brian-presta.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Brian Presta
+
+pull test
