@@ -376,7 +376,7 @@ color: var(--secondary-color);
     top: 200px;
     transition: transform .6s .1s;
 }
-.trainer:hover h3,.trainer:hover h4 {
+.trainer:hover .trainer-img h3,.trainer:hover .trainer-img h4 {
     transform: translateY(-200px);
 }
 .trainer-1 {
