@@ -343,8 +343,9 @@ color: var(--secondary-color);
     padding: 15px;
     align-items: flex-end;
     position: relative;
+    overflow: hidden;
 }
-
+/* creates gradient element over trainer image */
 .trainer-img::after{
     content: "";
     height: 100%;
@@ -353,18 +354,30 @@ color: var(--secondary-color);
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
+.trainer:hover .trainer-img::after {
+    opacity: 1;
+}
 .trainer-img h3 {
     position: relative;
     z-index: 2;
     font-size: 28px;
     margin-bottom: 5px;
+    top: 200px;
+    transition: transform .6s;
 }
 .trainer-img h4 {
     position: relative;
     z-index: 2;
     font-size: 22px;
+    top: 200px;
+    transition: transform .6s .1s;
+}
+.trainer:hover h3,.trainer:hover h4 {
+    transform: translateY(-200px);
 }
 .trainer-1 {
     background-image: url("../images/trainer-1.jpg");
